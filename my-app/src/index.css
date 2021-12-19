@@ -38,7 +38,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -153,13 +153,13 @@ li {
 }
 
 .nav-font {
-  font-family: 'Audiowide' ;
-  font-size: 1.8em;
+  font-family: Arial, 'Helvetica', sans-serif ;
+  
 }
 
 .nav-title-font {
-  font-family: 'Days One';
-  font-size: 1.9em;
+  font-family: Arial, 'Helvetica', sans-serif;
+  
 }
 
 .navitem-indent {

@@ -22,12 +22,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
-
-
-
 p {
   margin-top: 0;
 }
@@ -47,6 +41,11 @@ header {
 
 header a {
   color: var(--light);
+}
+
+h2 {
+  padding: 30px 60px 30px 60px ;
+  justify-content: center;
 }
 
 button {
@@ -120,7 +119,6 @@ nav  li {
   cursor: pointer;
   display: inline-block;
   padding: 20px;
-  
 }
 
 textarea {

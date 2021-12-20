@@ -7,9 +7,6 @@ function Navigation(props) {
     <div>
       <Navbar expand="lg" bg="dark" sticky="top">
         <NavLink className="nav-link" to="/">
-          <div className="text-light">
-            <h4 className="nav-title-font">Ayla Moss</h4>
-          </div>
         </NavLink>
         <ul className="navbar-nav ml-auto navitem-indent">
           <li className="nav-item">

@@ -7,8 +7,9 @@ function ContactForm() {
     // JSX
     return (
         <section>
-            <h1>Contact me</h1>
+            
             <form id="contact-form">
+                <h1>Contact me</h1>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" />

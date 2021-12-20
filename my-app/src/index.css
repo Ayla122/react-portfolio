@@ -48,44 +48,27 @@ h2 {
   justify-content: center;
 }
 
-button {
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
-}
-
-button:hover {
-  opacity: .8;
-}
-
-button[disabled] {
-  cursor: default;
-  opacity: .8;
-}
-
-img {
-  max-width: 100%;
-}
-
-span[role="img"] {
-  cursor: default;
-}
-
 form {
-  width: 40%;
+  width: 45%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: lightpink;
+  padding: 20px;
+  color: white;
+}
+
+label{
+  float: left;
 }
 
 input {
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
+  padding: 10px;
+  border: 1px solid pink;
   border-radius: 3px;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 5px;
+  margin: 10px;
+  width: 100%;
+  
 }
 
 input:focus {
@@ -122,10 +105,11 @@ nav  li {
 }
 
 textarea {
-	width: 600px;
+	width: 100%;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
+  margin: 10px;
 }
 
 .container {
@@ -232,15 +216,15 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background-color: white;
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
+	color: lightpink;
 	cursor: pointer;
-	
 	font-weight: 600;
 	margin-bottom: 30px;
-	padding: 10px 15px;	
+  margin-top: 30px;
+	padding: 20px 25px;	
 }
 
 a {

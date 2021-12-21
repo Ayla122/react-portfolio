@@ -7,7 +7,6 @@ function ContactForm() {
     // JSX
     return (
         <section>
-            
             <form id="contact-form">
                 <h1>Contact me</h1>
                 <div>

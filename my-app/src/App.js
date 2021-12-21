@@ -13,8 +13,8 @@ function App (){
 return (
   <div>
    
-    <h1>
-      Ayla Moss
+    <h1 id="myname">
+      AYLA MOSS
     </h1>
     <Header />
     

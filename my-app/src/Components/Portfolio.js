@@ -1,9 +1,18 @@
-import React from 'react'; 
+import React from 'react';
 
-function Portfolio (){
-    return(
-        <h1>Portfolio me</h1>
+function Portfolio() {
+    return (
+        <form>
+            <h1>Portfolio </h1>
+            <div className="projectItem">
+                <p>
+                    <a href="">
+                        <img src="" alt="Ferias" />
+                    </a>
+                </p>
+            </div>
+        </form>
     )
 }
 
-export default Portfolio; 
+export default Portfolio;

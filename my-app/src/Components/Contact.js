@@ -23,6 +23,40 @@ function ContactForm() {
                 </div>
                 <button type="submit">Submit</button>
             </form>
+            <p class="mt-5">
+                <a href="https://www.linkedin.com/in/ayla-moss-260967211/">
+                    <img
+                        src="https://img.icons8.com/fluent/48/000000/linkedin.png"
+                        alt="inkedIn"
+                    />
+                </a>
+            </p>
+            <section class="container">
+                <p class="mt-5">
+                    <a href="https://www.linkedin.com/in/ayla-moss-260967211/">
+                        <img
+                            src="https://img.icons8.com/fluent/48/000000/linkedin.png"
+                            alt="inkedIn"
+                        />
+                    </a>
+                </p>
+                <p class="mt-5">
+                    <a href="https://www.linkedin.com/in/ayla-moss-260967211/">
+                        <img
+                            src="https://img.icons8.com/fluent/48/000000/linkedin.png"
+                            alt="inkedIn"
+                        />
+                    </a>
+                </p>
+                <p class="mt-5">
+                    <a href="https://www.linkedin.com/in/ayla-moss-260967211/">
+                        <img
+                            src="https://img.icons8.com/fluent/48/000000/linkedin.png"
+                            alt="inkedIn"
+                        />
+                    </a>
+                </p>
+            </section>
         </section>
     )
 }

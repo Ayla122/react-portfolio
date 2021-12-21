@@ -4,7 +4,7 @@
 - - -
 IMAGE 1:
 
-![Screenshot of Final Project 1]()
+![Screenshot of Final Project 1](https://raw.githubusercontent.com/Ayla122/react-portfolio/main/my-app/public/images/finalproject.png)
 - - -
 
 [Deployed Website Link]()

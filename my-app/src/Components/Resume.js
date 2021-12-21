@@ -8,7 +8,7 @@ function Resume() {
             <div>
                 <div class="mt-5">
                     <a
-                        href="my-app/public/rem.pdf"
+                        href="/public/rem.pdf"
                         class="link"
                     >
                         Download Resume

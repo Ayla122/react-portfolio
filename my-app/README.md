@@ -6,10 +6,6 @@ IMAGE 1:
 
 ![Screenshot of Final Project 1]()
 - - -
-IMAGE 2:
-
-![Screenshot of Final Project 2]()
-- - -
 
 [Deployed Website Link]()
 

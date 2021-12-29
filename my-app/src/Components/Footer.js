@@ -15,7 +15,10 @@ function Footer() {
           <a href="" target="_blank" rel="noreferrer">
             LinkedIn
           </a>{" "}
-          |{" "}{" "}
+          |
+          <a href="" target="_blank" rel="noreferrer">
+            Github
+          </a>{" "}
         </p>
       </div>
     </footer>

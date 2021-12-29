@@ -17,7 +17,7 @@ return (
       AYLA MOSS
     </h1>
     <Header />
-    
+    <Footer />
   </div>
 );
 }

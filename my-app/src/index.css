@@ -269,3 +269,19 @@ a {
 
 }
 
+#contact-form {
+  background-color: white;
+}
+
+#contactMe {
+  color: #e8aac9;
+  font-size: 45px;
+}
+
+#gmail {
+  width: 55px;
+}
+
+#phone {
+  width: 55px;
+}

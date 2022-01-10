@@ -7,7 +7,7 @@ IMAGE:
 ![Screenshot of Final Project](https://raw.githubusercontent.com/Ayla122/react-portfolio/main/my-app/public/images/finalproject.png)
 - - -
 
-[Deployed Website Link](https://ayla122.github.io/react-portfolio/)
+[Deployed Website Link](https://ayla122-react-portfolio.herokuapp.com/#/about)
 
 ## Project Overview
 

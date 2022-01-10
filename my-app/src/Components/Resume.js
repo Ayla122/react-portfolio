@@ -2,19 +2,24 @@ import React from "react";
 
 function Resume() {
     return (
-        <section>
+        <section className='page-container'>
             <form>
-            <h1>Resume</h1>
-            <div>
-                <div class="mt-5">
-                    <a
-                        href="/public/rem.pdf"
-                        class="link"
-                    >
-                        Download Resume
-                    </a>
+                <h1>Resume</h1>
+                <div>
+
+                    <div className="column">
+                        <a
+                            className="button is-primary"
+                            href={process.env.PUBLIC_URL + "/rem.pdf"}
+                            target="_blank" rel="noreferrer"
+                        >
+                            <span className="icon">
+                                <i className="fas fa-download"></i>
+                            </span>
+                            <span className='res-link'>Download Resume</span>
+                        </a>
+                    </div>
                 </div>
-            </div>
             </form>
         </section>
     );

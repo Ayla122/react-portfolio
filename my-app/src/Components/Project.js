@@ -6,8 +6,11 @@ function Project(props) {
     return (
         <div>
             {props.projects.map((project) => (
-                <div>
+                <div  className='whole-card'>
                     <div>
+                    <p className="title" key={project.id}>
+                                    {project.title}
+                                </p>
                         <figure>
                             <a href={project.live} target="_blank" rel="noreferrer">
                                 <img className="img"src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
@@ -18,18 +21,14 @@ function Project(props) {
                         <div className="media">
                             <div className="media-left"></div>
                             <div className="media-content">
-                                <p className="title is-4" key={project.id}>
-                                    {project.title}
-                                </p>
+                               
                             </div>
                         </div>
 
-                        <div className="content has-text-left">
+                        <div>
                             {project.description}
-                            <br />
-                            <br />
                             <div className="card">
-                                <footer className="card-footer">
+                                <div>
                                     <a
                                         href={project.repo}
                                         className="card-footer-item"
@@ -37,7 +36,7 @@ function Project(props) {
                                     >
                                         Repo
                                     </a>
-                                    <br />
+                                    <a>|</a>
                                     <a
                                         href={project.live}
                                         className="card-footer-item"
@@ -45,7 +44,7 @@ function Project(props) {
                                     >
                                         Live Site
                                     </a>
-                                </footer>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -3,11 +3,10 @@ import React from 'react';
 function About (){
     console.log("About component")
     return(
-        <div>
+        <div className='page-container'>
             <form>
         <h1>About me</h1>
-        <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper sollicitudin massa id placerat. Aenean sollicitudin bibendum arcu, maximus pharetra elit condimentum nec.  </h2>
-        <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper sollicitudin massa id placerat. Aenean sollicitudin bibendum arcu, maximus pharetra elit condimentum nec. </h2>
+        <h2> Web Development student at University of Oregon. I like dabling in various parts of frontend developement and to learn new technologies.  </h2>
         </form>
         </div>
     )

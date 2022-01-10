@@ -28,6 +28,7 @@ function Navigation(props) {
             <NavLink to="/resume">
               <div className="nav-font text-light">Resume</div>
             </NavLink>
+         
           </li>
         </ul>
       </Navbar>

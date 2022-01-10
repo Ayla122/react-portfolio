@@ -13,7 +13,9 @@ class Header extends Component {
     return (
       <HashRouter>
         <header>
+          <hr/>
           <Navigation />
+          <hr/>
         </header>
 
         <div className="content">
@@ -24,10 +26,12 @@ class Header extends Component {
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
-        </div>
+        </div> 
       </HashRouter>
+     
     );
   }
 }
+
 
 export default Header;

@@ -26,7 +26,13 @@ const projects = [
       repo: "https://github.com/Ayla122/The-Barter-System",
       live: "https://glacial-temple-55453.herokuapp.com/login",
     },
-    
+    {
+      id: 2,
+      title: "Marvel Search",
+      image: "/images/marvel.png",
+      repo: "https://github.com/Ayla122/MAC",
+      live: "https://mac-project.herokuapp.com/",
+    },
   ];
   
  

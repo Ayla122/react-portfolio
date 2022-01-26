@@ -16,7 +16,7 @@ function ContactForm() {
                 </a>
                 <a>|</a>
                 <a href="mailto:ayladd122@gmail.com" className='con-link'>
-                   Email
+                ayladd122@gmail.com
                 </a>
                 <a>|</a>
                 <a href="tel:5035198565" className='con-link'>

@@ -15,7 +15,7 @@ function ContactForm() {
                     LinkedIn
                 </a>
                 <a>|</a>
-                <a href="mailto:devaylamoss@gmail.com" className='con-link'>
+                <a href="mailto:ayladd122@gmail.com" className='con-link'>
                    Email
                 </a>
                 <a>|</a>
